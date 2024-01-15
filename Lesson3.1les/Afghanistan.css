@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #202C36;
+}
+
+nav {
+    padding: 2rem 0;
+    background-color: #2B3844;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-flex {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+button {
+    background-color: #2B3844;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 39px 10px 32px;
+    border: none;
+    color: white;
+    margin: 80px 0 50px;
+    font-weight: 300;
+    border-radius: 6px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parent img {
+    width: 560px;
+    height: 401px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+
+.text-parent {
+    display: flex;
+    gap: 117px;
+    margin: 23px 0 68px;
+    line-height: 32px;
+}
+
+.text-parent p {
+    font-weight: 100;
+    font-family: 'Nunito Sans', sans-serif;
+    color: gainsboro;
+}
+
+.text-parent b {
+    font-weight: 400;
+    color: white;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.border p {
+    padding: 5px 0;
+    width: 96px;
+    text-align: center;
+    background-color: #2B3844;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.border {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.border-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (max-width: 540px)and (min-width: 320px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+
+    .parent img {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 44px;
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .text-parent {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .border {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-bottom: 60px;
+    }
+
+
+}
+
